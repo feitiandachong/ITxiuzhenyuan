@@ -1,2 +1,2 @@
 # ITxiuzhenyuan
-TASK1:display JIU GONG GE on phone
+#TASK1:Display jiu gong ge on mobile phone.
