@@ -5,22 +5,26 @@
 }/*自定义字体*/
 
 p{font-family: 'Clockwork';
-    font-size: 55px;/*字体大小*/
-    margin: 10%;
-    text-indent: 0px;/*缩进*/
+    font-size: 240%;/*字体大小*/
+    padding-top: 40%;/*内边距 使文字一直处于中心*/
+    padding-left: 35%;
+    margin: 10%;/*外边距*/
+    text-indent: 0;/*缩进*/
     color: black;
     font-weight: bold;/*粗体*/
-    line-height: 90px;
-    text-align: center;/*居中*/
+    line-height: 0;/*定义行高*/
+    text-align: left;/*居中*/
 }
 
 .center
 {margin-left:auto;
     margin-right:auto;
-    width:80%;}
+    width:60%;}/*设置阵列外框宽始终是页面的40%，高度自动*/
 .box
 {background-color:#ff0;
-    height:122px;width:31%;
+    width:31%;/*小边框的宽是大外框的31% */
+    height:0;/*保证下面成比例代码有效*/
     float:left;
     margin:1%;
-    border-radius:15px;}
+    padding-bottom: 31%;/*边框与内容的距离 height:0保证宽高等比例1:1*/
+    border-radius:10%;/*倒角*/}
