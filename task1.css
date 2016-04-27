@@ -12,7 +12,7 @@ p{font-family: 'Clockwork';
     text-indent: 0;/*缩进*/
     color: black;
     font-weight: bold;/*粗体*/
-    line-height: 0;/*定义行高*/
+    line-height: 0;/*行间距不随字体变化而改变*/
     text-align: left;/*居中*/
 }
 
