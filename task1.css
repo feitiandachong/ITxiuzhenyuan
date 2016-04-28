@@ -25,6 +25,17 @@ p{font-family: 'Clockwork';
     width:31%;/*小边框的宽是大外框的31% */
     height:0;/*保证下面成比例代码有效*/
     float:left;
-    margin:1%;
+    margin:0.3%;
     padding-bottom: 31%;/*边框与内容的距离 height:0保证宽高等比例1:1*/
-    border-radius:10%;/*倒角*/}
+    border-radius:0%;/*倒角*/}
+.box:hover{ background-size:100% 100%;background-repeat:no-repeat;}
+/*.box:hover{background-color:#ff3300}/*鼠标经过时 变色*/
+#box1:hover{background-image: url(/images/CARTOON_01.png);}
+#box2:hover{background-image: url(/images/CARTOON_02.png);}
+#box3:hover{background-image: url(/images/CARTOON_03.png);}
+#box4:hover{background-image: url(/images/CARTOON_04.png);}
+#box5:hover{background-image: url(/images/CARTOON_05.png);}
+#box6:hover{background-image: url(/images/CARTOON_06.png);}
+#box7:hover{background-image: url(/images/CARTOON_07.png);}
+#box8:hover{background-image: url(/images/CARTOON_08.png);}
+#box9:hover{background-image: url(/images/CARTOON_09.png);}
