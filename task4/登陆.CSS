@@ -1,0 +1,112 @@
+.hh{
+    margin-top:1em;
+    height: 5em;
+    background-color:lightblue;
+    width: 100%;
+    border-radius: 25px 25px 0px 0px;
+}
+
+.close{
+    width:20%;/*小边框的宽是大外框的31%     background-color:green;*/
+    float:left;
+    color:white;
+    padding-left:4%;
+    padding-top:2em;
+    font-size: 1.5em;
+    text-align:left;
+    font-weight:bold;
+}
+.deng{
+
+    width:52%;/*小边框的宽是大外框的31%    background-color:blue;*/
+    float:left;
+    color:ghostwhite;
+    text-align:center;
+    padding-top:0.8em;
+    font-size: 2.5em;
+    font-weight:bold;
+}
+
+.zhu{
+    width:20%;/*小边框的宽是大外框的31%     background-color:green;*/
+    float:right;
+    color:white;
+    padding-right:4%;
+    padding-top:2em;
+    font-size: 1.5em;
+    text-align:right;
+    font-weight:bold;
+}
+
+.close:link{text-decoration:none;}
+.close:hover {text-decoration: underline;}/*font-family:'微软雅黑';*/
+.zhu:link{text-decoration:none;}
+.zhu:hover {text-decoration:underline;}
+
+body{
+    background-color:silver;
+}
+
+.tt{
+    height:1.5em;
+    background-color:lightblue;
+    width: 100%;
+    margin-top:0.1em;
+    float:left;
+    color:ghostwhite;
+    text-align:center;
+    padding-top:0.1em;
+    font-size: 2.5em;
+    font-weight:bold;
+    border-radius: 0px 0px 25px 25px;
+}
+.tt:link{text-decoration:none;}
+.tt:hover {font-size:3em;}
+
+.forget{
+    float:right;
+    text-decoration:none;
+    color:mediumpurple;
+}
+.forget:hover {color:red;}
+
+.blank{
+    background-color: lightsalmon;
+    margin-top:0.1em;
+    padding: 30px 20px;
+    height: 10em;
+    text-align: center;
+}
+.blank input[type="text"] {
+    outline: none;
+    font-size: 22px;
+    font-weight: 500;
+    color: #818181;
+    padding: 18px 20px;
+    background: #CACACA;
+    border: 1px solid #ccc;
+    border-radius:32px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -o-border-radius: 25px;
+    margin: 0px 0px 16px 0px;
+    width: 88%;
+    -webkit-appearance: none;
+
+}
+.blank input[type="password"]{
+    outline: none;
+    font-size: 22px;
+    font-weight: 700;
+    color: #818181;
+    padding: 18px 20px;
+    background: #CACACA;
+    border:1px solid #ccc;
+    border-radius:25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -o-border-radius: 25px;
+    margin: 0px 0px 0px 0px;
+    width: 88%;
+    -webkit-appearance: none;
+}

@@ -1,0 +1,115 @@
+a{height: inherit;
+    text-decoration:none;
+    color: inherit;}
+
+body{
+    background-color: #818181;
+}
+
+.top{
+    height: 40px;
+    background-color: lightskyblue;
+    padding-top: 3px;
+    padding-bottom: 10px;
+}
+.top h2{
+    color:white;
+    text-align: center;
+}
+.back{
+    position: absolute;
+    left: 20px;
+    top: 30px;
+    color:white;
+    font-size: 20px;
+
+}
+.back:hover{
+    font-weight: 700;
+}
+
+.middle{
+
+    height: 160px;
+    background-image:url(images/ÎçºóÑà³Ç.JPG) ;
+    background-size: 100%;
+    padding-top: 40px;
+    padding-left: 20px;
+}
+#img_a{
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+border: none;
+ }
+#img_a:hover{
+    border: 1px solid #bebebe;
+}
+.name{
+    position: absolute;
+    left: 195px;
+    top: 130px;
+    color:white;
+    font-size: 23px;
+}
+.small{
+    font-size: 18px;
+}
+.inf{
+    background-color: white;
+    height: 500px;
+    padding: 20px 0;
+}
+.zyjn{
+    float: left;
+    border-left: 3px groove;
+    border-left-color: blueviolet;
+    font-size: 20px;
+    font-weight: 700;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+.text{
+    float: left;
+    color:silver;
+    border-right: 1px solid;
+    border-right-color: silver;
+    font-size: 20px;
+    margin-left: 20px;
+    padding-right: 20px;
+
+}
+.text2{
+    font-size: 20px;
+    padding-left: 7em;
+
+}
+.bottoml{
+     width: 50%;
+     height:6em;
+     float: left;
+ }
+.bottomr{
+    width: 50%;
+    height:6em;
+    float: right;
+
+}
+.bottom{
+    text-align: center;
+    width: 80%;
+    height: 40%;
+    margin: 0 15px;
+    padding: 10px 0;
+    background-color: silver;
+    border: 2px solid lightskyblue;
+    border-radius: 10px;
+    font-size: 2em;
+    font-weight: 700;
+    color: white;
+    float: right;
+}
+.bottom:hover{
+    border: 1px solid #bebebe;
+}
